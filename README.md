@@ -135,6 +135,7 @@ The server will start on http://localhost:5000 (or your configured PORT).
 ## 🌐 API Endpoints
 
 1. 🔄 **POST** `/countries/refresh`
+   
 Fetch all countries and exchange rates, then cache them in the database
 
 **Response (200 Ok):**
@@ -159,6 +160,7 @@ Fetch all countries and exchange rates, then cache them in the database
 ---
 
 2. 📄 **GET** `/countries`
+   
 Get all countries from the DB (supports filters and sorting) such as `?region=Africa` | `?currency=NGN` | `?sort=gdp_desc`
 
 **Query Parameters:**
@@ -166,7 +168,7 @@ Get all countries from the DB (supports filters and sorting) such as `?region=Af
 - ?currency=NGN
 - ?sort=gdp_desc or ?sort=gdp_asc
 
-**Sample `GET` Request**
+**Sample Request**
 `GET /countries?region=Africa`
 
 **Response:**
@@ -191,6 +193,7 @@ Get all countries from the DB (supports filters and sorting) such as `?region=Af
 ---
 
 3. 📍 **GET** `/countries/:name`
+   
 Get details of a specific country (case-insensitive).
 
 **Example Request:**
@@ -218,6 +221,7 @@ GET /countries/Ghana
 ---
 
 4. ❌ **DELETE** `/countries/:name`
+   
 Deletes a specific country record.
 
 **Example Request:**
@@ -235,6 +239,7 @@ DELETE /countries/Ghana
 ---
 
 5. 📊 **GET** `/status`
+   
 Check the total number of countries and last refresh timestamp.
 
 **Response:**
@@ -249,6 +254,7 @@ Check the total number of countries and last refresh timestamp.
 ---
 
 6. 🖼️ **GET** `/countries/image`
+   
 Serves the summary image with top countries by GDP generated after `/countries/refresh` 
 
 **Response:** PNG image file containing:
