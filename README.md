@@ -1,19 +1,8 @@
 # 🌍 Country Currency & Exchange API
 
 A RESTful API service built with **Node.js, Express and mySQL**, that fetches country data and exchange rates from external APIs, caches them in a MySQL database, and provides comprehensive CRUD operations with filtering and sorting capabilities.
+
 This project forms the **Stage 2 Backend Task** for the **HNG Internship**, demonstrating proficiency in API integration, database persistence, data transformation, and clean RESTful API design.
-
----
-
-## 📖 Table of Contents
-
-- [Overview](##overview)
-- [Key Features](##key-features)
-- [Architecture](##architecture)
-- [Tech Stack](##tech-stack)
-- [Setup Instructions](##setup-instructions)
-- [API Endpoints](##api-endpoints)
-- [Error Handling](##error-handling)
 
 ---
 
@@ -30,7 +19,7 @@ It then:
 ---
 
 ## 🔑 Key Features 
-
+```
 ✅ **Fetch and cache country data from RestCountries API**
 ✅ **Retrieve real-time exchange rates from Exchange Rate API**
 ✅ **Calculate estimated GDP for each country**
@@ -38,7 +27,7 @@ It then:
 ✅ **Full CRUD operations with filtering and sorting**
 ✅ **Comprehensive error handling and validation**
 ✅ **Efficient MySQL database caching**
-
+```
 ---
 
 ## 🏗️ Architecture
@@ -125,7 +114,7 @@ npm start
 ```bash
 npm run dev
 ```
-The server will start on http://localhost:3000 (or your configured PORT).
+The server will start on http://localhost:5000 (or your configured PORT).
 
 ### 📦 Dependencies
 
