@@ -7,13 +7,13 @@ This project forms the **Stage 2 Backend Task** for the **HNG Internship**, demo
 
 ## 📖 Table of Contents
 
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Setup Instructions](#setup-instructions)
-- [API Endpoints](#api-endpoints)
-- [Error Handling](#error-handling)
+- [Overview](##overview)
+- [Key Features](##key-features)
+- [Architecture](##architecture)
+- [Tech Stack](##tech-stack)
+- [Setup Instructions](##setup-instructions)
+- [API Endpoints](##api-endpoints)
+- [Error Handling](##error-handling)
 
 ---
 
@@ -42,7 +42,7 @@ It then:
 ---
 
 ## 🏗️ Architecture
-
+```
 Country-Currency-and-Exchange-API/
 ├── config/                      # MySQL connection config
 │ └── db.js                      
@@ -60,7 +60,7 @@ Country-Currency-and-Exchange-API/
 │ └── summary.png                # Generated image
 ├── app.js
 └── server.js
-
+```
 ---
 
 ## 🧰 Tech Stack
