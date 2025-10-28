@@ -19,15 +19,15 @@ It then:
 ---
 
 ## 🔑 Key Features 
-```
-✅ **Fetch and cache country data from RestCountries API**
-✅ **Retrieve real-time exchange rates from Exchange Rate API**
-✅ **Calculate estimated GDP for each country**
-✅ **Generate visual summary images with top 5 countries**
-✅ **Full CRUD operations with filtering and sorting**
-✅ **Comprehensive error handling and validation**
-✅ **Efficient MySQL database caching**
-```
+
+✅ Fetch and cache country data from RestCountries API
+✅ Retrieve real-time exchange rates from Exchange Rate API
+✅ Calculate estimated GDP for each country
+✅ Generate visual summary images with top 5 countries
+✅ Full CRUD operations with filtering and sorting
+✅ Comprehensive error handling and validation
+✅ Efficient MySQL database caching
+
 ---
 
 ## 🏗️ Architecture
